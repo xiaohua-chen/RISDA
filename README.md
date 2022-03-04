@@ -1,4 +1,4 @@
-# Imagine by Reasoning: A Reasoning-Based Implicit Semantic Data Augmentation for Long-Tailed Classification
+# Imagine by Reasoning: A Reasoning-Based Implicit Semantic Data Augmentation for Long-Tailed Classification (AAAI 2022)
 
 ## Prerequisite
 * PyTorch >= 1.2.0
