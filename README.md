@@ -26,11 +26,6 @@ python RISDA.py --gpu 3 --lr 0.1 --alpha 0.5 --beta 0.75 --imb_factor 0.01 --dat
 ```
 More details will be uploaded soon.
 
-Well, the accuracy is calculated in the code. The error rate reported in the paper is calculated by manually subtracting the accuracy from 100.
-
-For example, when Imbalance Factor is 20, according to the code, the result of code accuracy is 58.67, while the error rate reported in the paper is 100-58.67= 41.33.
-
-For another example, when Imbalance Factor is 200, according to the code, the result of code accuracy is 44.76, while the error rate reported in the paper is 100-44.76= 55.24.
 
 ## Acknowledgements
 Some codes in this project are adapted from [MetaSAug](https://github.com/BIT-DA/MetaSAug) and [ISDA](https://github.com/blackfeather-wang/ISDA-for-Deep-Networks). We thank them for their excellent projects.
