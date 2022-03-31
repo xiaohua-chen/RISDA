@@ -15,7 +15,7 @@
 
 
 ## CIFAR
-
+In the code, we calculate the accuracy, which is different from that in the paper.
 ```
 CIFAR-LT-100,long-tailed imabalance ratio of 200
 python RISDA.py --gpu 3 --lr 0.1 --alpha 0.5 --beta 1 --imb_factor 0.005 --dataset cifar100 --num_classes 100 --save_name simple --idx cifar_im200
