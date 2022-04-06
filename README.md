@@ -34,10 +34,11 @@ Some codes in this project are adapted from [MetaSAug](https://github.com/BIT-DA
 ## Citation
 
 If you find this code useful for your research, please cite our paper.
-
->@InProceedings{chen2021imagine,
+```
+@inproceedings{chen2021imagine,
   title={Imagine by Reasoning: A Reasoning-Based Implicit Semantic Data Augmentation for Long-Tailed Classification},
   author={Chen, Xiaohua and Zhou, Yucan and Wu, Dayan and Zhang, Wanqian and Zhou, Yu and Li, Bo and Wang, Weiping},
   booktitle = {Proceedings of the Thirty-Sixth AAAI Conference on Artificial Intelligence (AAAI)},
   year={2022}
 }
+```
