@@ -26,12 +26,6 @@ python RISDA.py --gpu 3 --lr 0.1 --alpha 0.5 --beta 0.75 --imb_factor 0.01 --dat
 ```
 # Image Classification on ImageNet
 
-## Requirements
-- python 3.7
-- pytorch 1.0.1
-- torchvision 0.2.2
-
-
 ## Run
 
 Train ResNet-50 on ImageNet-LT
