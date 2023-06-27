@@ -24,6 +24,31 @@ python RISDA.py --gpu 3 --lr 0.1 --alpha 0.5 --beta 1 --imb_factor 0.005 --datas
 CIFAR-LT-100,long-tailed imabalance ratio of 100
 python RISDA.py --gpu 3 --lr 0.1 --alpha 0.5 --beta 0.75 --imb_factor 0.01 --dataset cifar100 --num_classes 100 --save_name simple --idx cifar_im100
 ```
+# Image Classification on ImageNet
+
+## Requirements
+- python 3.7
+- pytorch 1.0.1
+- torchvision 0.2.2
+
+
+## Run
+
+Train ResNet-50 on ImageNet-LT
+
+```
+CUDA_VISIBLE_DEVICES=1,0 python imagenet_ISDA_train.py  /datapath/ILSVRC2012_LT/ --model resnet50 --batch-size 128 --lr 0.1 --epochs 100 --alpha_0 0 --beta_0 7.5 --workers 1  --world-size 1 --rank 0  --stage1 80 --stage2 90 
+
+```
+
+Test ResNet-50 on ImageNet-LT
+
+```
+CUDA_VISIBLE_DEVICES=1,0 python imagenet_ISDA_train.py  /datapath/ILSVRC2012_LT/ --model resnet50 --batch-size 128 --lr 0.1 --epochs 100 --alpha_0 0 --beta_0 7.5 --workers 1  --world-size 1 --rank 0  --stage1 80 --stage2 90 --evaluate checkpoint/best.pth.tar
+
+```
+
+
 More details will be uploaded soon.
 
 
